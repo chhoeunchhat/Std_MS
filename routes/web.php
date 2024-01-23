@@ -21,3 +21,7 @@ Route::get('/subject', function () {
     return view('subjet.subject-list');
     // return view('welcome');
 });
+Route::get('/student', function () {
+    return view('students.student-list');
+    // return view('welcome');
+});

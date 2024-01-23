@@ -123,4 +123,9 @@
   .bd-mode-toggle .dropdown-menu .active .bi {
     display: block !important;
   }
+
+  .btn_edit a{
+    text-decoration: none;
+  }
   
+ 
