@@ -17,6 +17,16 @@ Route::get('/', function () {
     return view('layout.master');
     // return view('welcome');
 });
+
+Route::prefix('/subject')->group(function(){
+    Route::get('/',function(){
+        return view('subjet.subject-list');
+    });
+    Route::get('/add',function(){
+        return view('subjet.subject-add');
+    });
+});
+
 Route::get('/subject', function () {
     return view('subjet.subject-list');
     // return view('welcome');
