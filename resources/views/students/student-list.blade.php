@@ -7,7 +7,7 @@
 <div class="btnAdd">
 <h2>Students</h2>
 <div>
-  <button  type="button" class="btnAdd btn btn-success btn-sm"><i class="bi bi-person-plus-fill"></i>&nbsp;Add</button>
+  <a href="{{url('/student/add')}}"  type="button" class="btnAdd btn btn-success btn-sm"><i class="bi bi-person-plus-fill"></i>&nbsp;Add</a>
 </div>
 </div>
 <div class="table-responsive small">
